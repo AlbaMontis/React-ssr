@@ -1,0 +1,6 @@
+./editorconfig
+.vscode/
+node_modules/
+npm-debug.log
+build/
+public/
