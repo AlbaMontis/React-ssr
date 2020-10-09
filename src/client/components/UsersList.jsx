@@ -20,4 +20,6 @@ const UsersList = () => {
   )
 }
 
+export const loadData = store => store.dispatch(fetchUsers())
+
 export default UsersList
