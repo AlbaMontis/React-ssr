@@ -12,4 +12,4 @@ const enhancer =  composeEnhancers(
   applyMiddleware(thunk)
 )
 
-export default () => createStore(reducers, {}, enhancer)
+export default (initialState = {}) => createStore(reducers, initialState, enhancer)

@@ -7,7 +7,7 @@ import { renderRoutes } from 'react-router-config'
 import Routes from './Routes'
 import createStore from '../helpers/createStore'
 
-const store = createStore()
+const store = createStore(window.INITIAL_STATE)
 
 ReactDom.hydrate(
   <Provider store={store}>

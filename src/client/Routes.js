@@ -1,5 +1,5 @@
 import Home from './screens/Home'
-import UsersList, { loadData } from './screens/Users'
+import UsersList from './screens/Users'
 
 export default [
   {
@@ -8,7 +8,6 @@ export default [
     exact: true
   },
   {
-    loadData,
     path: '/users',
     component: UsersList
   }
