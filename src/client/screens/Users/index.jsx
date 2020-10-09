@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { fetchUsers } from '../actions'
+import { fetchUsers } from '../../actions'
 
 const renderUsers = users => users.map(user => <li key={user.id}>{user.name}</li>)
 

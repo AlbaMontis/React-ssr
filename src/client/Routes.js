@@ -1,5 +1,5 @@
-import Home from './components/Home.jsx'
-import UsersList, { loadData } from './components/UsersList.jsx'
+import Home from './screens/Home'
+import UsersList, { loadData } from './screens/Users'
 
 export default [
   {
